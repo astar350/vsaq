@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CONTACT</title>
+<meta name="generator" content="WYSIWYG Web Builder 19 Trial Version - https://www.wysiwygwebbuilder.com">
+<link href="vsaq-37.css" rel="stylesheet">
+<link href="CONTACT.css" rel="stylesheet">
+<script>
+function submitForm1()
+{
+   var regexp;
+   var Editbox1 = document.getElementById('Editbox1');
+   if (!(Editbox1.disabled || Editbox1.style.display === 'none' || Editbox1.style.visibility === 'hidden'))
+   {
+      regexp = /^[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ]*$/;
+      if (!regexp.test(Editbox1.value))
+      {
+         alert("Please enter only letter characters in the \"Nom\" field.");
+         Editbox1.focus();
+         return false;
+      }
+      if (Editbox1.value == "")
+      {
+         alert("Please enter a value for the \"Nom\" field.");
+         Editbox1.focus();
+         return false;
+      }
+      if (Editbox1.value.length < 2)
+      {
+         alert("Please enter at least 2 characters in the \"Nom\" field.");
+         Editbox1.focus();
+         return false;
+      }
+      if (Editbox1.value.length > 20)
+      {
+         alert("Please enter at most 20 characters in the \"Nom\" field.");
+         Editbox1.focus();
+         return false;
+      }
+   }
+   var Editbox2 = document.getElementById('Editbox2');
+   if (!(Editbox2.disabled || Editbox2.style.display === 'none' || Editbox2.style.visibility === 'hidden'))
+   {
+      regexp = /^([0-9a-z]([-.\w]*[0-9a-z])*@(([0-9a-z])+([-\w]*[0-9a-z])*\.)+[a-z]{2,6})$/i;
+      if (!regexp.test(Editbox2.value))
+      {
+         alert("Please enter a valid email address.");
+         Editbox2.focus();
+         return false;
+      }
+      if (Editbox2.value == "")
+      {
+         alert("Please enter a value for the \"Courriel\" field.");
+         Editbox2.focus();
+         return false;
+      }
+      if (Editbox2.value.length < 2)
+      {
+         alert("Please enter at least 2 characters in the \"Courriel\" field.");
+         Editbox2.focus();
+         return false;
+      }
+      if (Editbox2.value.length > 20)
+      {
+         alert("Please enter at most 20 characters in the \"Courriel\" field.");
+         Editbox2.focus();
+         return false;
+      }
+   }
+   return true;
+}
+</script>
+</head>
+<body>
+<div id="container">
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb19.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:7567px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<div id="wb_Text1" style="position:absolute;left:417px;top:322px;width:218px;height:75px;z-index:6;">
+<span style="color:#212529;font-family:'Agency FB';font-size:64px;"><strong>CONTACT</strong></span></div>
+<div id="wb_Text10" style="position:absolute;left:0px;top:1159px;width:970px;height:28px;text-align:center;z-index:7;">
+<span style="color:#979797;font-family:Arial;font-size:13px;">Copyright (c) 2024 VSAQ</span></div>
+<div id="wb_Form1" style="position:absolute;left:270px;top:729px;width:437px;height:301px;z-index:8;">
+<form name="Form1" method="post" action="mailto :vsaq@mail.com" enctype="multipart/form-data" id="Form1" onsubmit="return submitForm1()">
+<input type="text" id="Editbox1" style="position:absolute;left:177px;top:41px;width:180px;height:32px;z-index:0;" name="Nom" value="Nom" spellcheck="false">
+<input type="email" id="Editbox2" style="position:absolute;left:177px;top:121px;width:180px;height:28px;z-index:1;" name="Courriel" value="Courriel" spellcheck="false">
+<input type="submit" id="Button1" name="Envoyer" value="Envoyer" style="position:absolute;left:139px;top:224px;width:159px;height:44px;z-index:2;">
+<label for="" id="Label1" style="position:absolute;left:84px;top:41px;width:124px;height:35px;line-height:35px;z-index:3;">Nom</label>
+<label for="" id="Label2" style="position:absolute;left:65px;top:121px;width:118px;height:31px;line-height:31px;z-index:4;">Courriel</label>
+</form>
+</div>
+<div id="wb_Image1" style="position:absolute;left:16px;top:0px;width:169px;height:169px;z-index:9;">
+<img src="images/vsaq-removebg-preview.png" id="Image1" alt="" width="169" height="169"></div>
+<div id="wb_Image2" style="position:absolute;left:838px;top:0px;width:169px;height:169px;z-index:10;">
+<img src="images/vsaq-removebg-preview.png" id="Image2" alt="" width="169" height="169"></div>
+<div id="wb_Text8" style="position:absolute;left:206px;top:32px;width:611px;height:81px;z-index:11;">
+<span style="color:#212529;font-family:Yellowtail;font-size:64px;">Vins sans alcool de Qualité</span></div>
+<div id="wb_Text2" style="position:absolute;left:408px;top:112px;width:210px;height:67px;z-index:12;">
+<p>&nbsp;&nbsp;<a href="https://vsaq.square.site">Boutique</a></p></div>
+<div id="wb_Text4" style="position:absolute;left:31px;top:210px;width:51px;height:31px;z-index:13;">
+<span style="background-color:#8FBC8F;color:#000000;font-family:'Agency FB';font-size:27px;"><strong><u><a href="./INDEX.html">HOME</a></u></strong></span></div>
+<div id="wb_Text5" style="position:absolute;left:119px;top:210px;width:94px;height:31px;z-index:14;">
+<span style="background-color:#8FBC8F;color:#000000;font-family:'Agency FB';font-size:27px;"><strong><u><a href="./À-PROPOS.html">À PROPOS</a></u></strong></span></div>
+<div id="wb_Text6" style="position:absolute;left:247px;top:210px;width:106px;height:31px;z-index:15;">
+<span style="background-color:#8FBC8F;color:#000000;font-family:'Agency FB';font-size:27px;"><strong><u><a href="./FESTILLANT.html">FESTILLANT</a></u></strong></span></div>
+<div id="wb_Text7" style="position:absolute;left:383px;top:210px;width:96px;height:31px;z-index:16;">
+<span style="color:#000000;font-family:'Agency FB';font-size:27px;"><strong><u><a href="./VENDÔME.html">VENDÔME</a></u></strong></span></div>
+<div id="wb_Text3" style="position:absolute;left:504px;top:210px;width:69px;height:31px;z-index:17;">
+<span style="color:#000000;font-family:'Agency FB';font-size:27px;"><strong><u><a href="./ENNIUS.html">ENNIUS</a></u></strong></span></div>
+<div id="wb_Text9" style="position:absolute;left:608px;top:210px;width:119px;height:31px;z-index:18;">
+<span style="color:#000000;font-family:'Agency FB';font-size:27px;"><strong><u><a href="./FUENTEAMOR.html">FUENTEAMOR</a></u></strong></span></div>
+<div id="wb_Text11" style="position:absolute;left:767px;top:210px;width:103px;height:31px;z-index:19;">
+<span style="color:#000000;font-family:'Agency FB';font-size:27px;"><strong><u><a href="./NOUVELLES.html">NOUVELLES</a></u></strong></span></div>
+<div id="wb_Text12" style="position:absolute;left:908px;top:210px;width:97px;height:31px;z-index:20;">
+<span style="color:#000000;font-family:'Agency FB';font-size:27px;"><strong><u><a href="./CONTACT.html">CONTACT</a></u></strong></span></div>
+</div>
+</body>
+</html>
